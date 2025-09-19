@@ -13,7 +13,6 @@ class Program
         //     Console.WriteLine($"Hello {firstName}");
 
         //     // fav_color = input("What is your favorite color?")  python example
-
         //     Console.Write("What is your favorite color?");
         //     string favoriteColor = Console.ReadLine(); //add a quetion mark after string to return null
         //     Console.WriteLine($"{firstName}, your favorite color is {favoriteColor}");
