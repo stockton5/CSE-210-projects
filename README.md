@@ -1,5 +1,5 @@
 # cse210-student-template
-Stockton Hammer
+Stockton Hammer is wondering if this will work
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
