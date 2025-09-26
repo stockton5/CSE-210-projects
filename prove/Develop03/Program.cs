@@ -1,45 +1,45 @@
-using System;
+// using System;
 
-class Program
-{
-    static void Main(string[] args)
-    {
-         int number;
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//          int number;
         
-         Random randomNumber = new Random();
-        int real = randomNumber.Next(1, 101);
+//          Random randomNumber = new Random();
+//         int real = randomNumber.Next(1, 101);
 
-        do
+//         do
 
-        {
-            Console.Write("What is the magic number?");
-            number = int.Parse(Console.ReadLine());
+//         {
+//             Console.Write("What is the magic number?");
+//             number = int.Parse(Console.ReadLine());
 
-            if (number < real)
-            {
-                Console.WriteLine("Higher");
-            }
-            else if (number > real)
-            {
-                Console.WriteLine("Lower");
-            }
-            else
-            {
-                Console.WriteLine("You guessed it!");
-            }
+//             if (number < real)
+//             {
+//                 Console.WriteLine("Higher");
+//             }
+//             else if (number > real)
+//             {
+//                 Console.WriteLine("Lower");
+//             }
+//             else
+//             {
+//                 Console.WriteLine("You guessed it!");
+//             }
 
-        }
+//         }
 
-        while (number != real);
-        {
+//         while (number != real);
+//         {
 
-        }
+//         }
         
     
 
-    }
+//     }
     
 
    
 
-}
+// }
