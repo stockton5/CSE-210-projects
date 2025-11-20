@@ -27,7 +27,6 @@ public class GoalManager
             Console.WriteLine($"\nCongratulations! You earned {pointsEarned} points!");
             Console.WriteLine($"Your total score is now: {_score}");
             
-            // Check for level up
             CheckLevelUp();
         }
         else
@@ -52,7 +51,6 @@ public class GoalManager
 
     public int GetLevel()
     {
-        // Level formula: every 100 points = 1 level
         return (_score / 100) + 1;
     }
 
@@ -68,10 +66,9 @@ public class GoalManager
         int newLevel = GetLevel();
         int pointsForCurrentLevel = (newLevel - 1) * 100;
         
-        // Check if we just leveled up (score just crossed the threshold)
         if (_score >= pointsForCurrentLevel && _score - pointsForCurrentLevel < 100)
         {
-            Console.WriteLine($"\n*** LEVEL UP! You are now Level {newLevel}! ***");
+            Console.WriteLine($"\n  You are now Level {newLevel}! ");
         }
     }
 
